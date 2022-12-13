@@ -2,8 +2,8 @@ let inA = document.getElementById("inA");
 let inB = document.getElementById("inB");
 let sol = document.getElementById("answer");
 let resCon = document.getElementById("solution");
-let form = document.getElementById("calc-form");
-let btn = document.getElementById("calc-btn");
+let form = document.getElementById("form");
+let btn = document.getElementById("check");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
