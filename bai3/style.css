@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    margin: 100px;
+}
+h2 {
+    margin: 30px 0px;
+}
+.header-components {
+    width: 100%;
+    background-color: rgb(123, 123, 198);
+}
+
+.input,
+.header-bar {
+    display: inline-block;
+}
+
+.search-bar {
+    width: 40%;
+    float: left;
+    /* border: 1px solid #000; */
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+.search-bar input {
+    width: 80%;
+    padding: 10px 80px 10px 30px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    /* outline: none; */
+}
+.header-bar {
+    width: 60%;
+    float: left;
+}
+
+.header-bar a {
+    width: calc(20% - 20px);
+    float: left;
+    /* border: 1px solid black; */
+    padding: 10px 5px;
+    margin: 0px 10px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.header-bar a:hover {
+    background-color: #849fff;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+#components {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.persons {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 24px;
+}
+.persons:hover {
+    border: 1px solid #516fd4;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px #d0d5e5;
+}
+.address {
+    padding: 1px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.name {
+    padding: 1px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+}
+.tags {
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.tag {
+    font-size: 12px;
+    color: #516fd4;
+    border: 1px solid #bfc8e6;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.image img {
+    width: 97px;
+    height: 97px;
+}
